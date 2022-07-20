@@ -44,3 +44,27 @@ How many rows will give as output  -- inner join on id :
 |3	|kyo	|3|	Aathmika|
 | 4	|lee	|4|	pankhu|
 | 5	|bo young|	5|	bozo|
+
+
+How many rows will give as output  -- inner join on name : 
+
+    Query for count : select count(*) from A inner join B on a.name = b.name ;
+        Result : 13
+        
+    Query for rows/observations : select * from A inner join B on a.name = b.name order by name asc ;
+        Result : 
+| id | name | id | name|
+| -- | -- | -- | -- |
+|2	|Aathmika|3	|Aathmika|
+| 5	|bo young| 2	|bo young|
+| 5	|bo young| 15	|bo young|
+|6 |	bozo|	5 |	bozo|	
+|1 |	bozo|	5 |	bozo|	
+|6	|kyo	|19	|kyo	|
+|3	|kyo	|19	|kyo	|
+| 4	|lee | 1	|lee|
+| 4	|lee | 25	|lee|
+|3	|pankhu	|2	|pankhu	|
+|1	|pankhu	|2	|pankhu	|
+|3	|pankhu	|4	|pankhu	|
+|1	|pankhu	|4	|pankhu	|
