@@ -33,13 +33,14 @@ How many rows will give as output  -- inner join on id :
         Result : 8
         
     Query for rows/observations : select * from A inner join B on a.id = b.id ;
-        Result :   | id | name | id | name|
-                   | -- | -- | -- | -- |
-                    |1 |	bozo|	1|	lee|
-                    |1	|pankhu |	1	|lee|
-                    |2	|Aathmika	|2	|bo young|
-                    |2	|Aathmika	|2	|pankhu|
-                    |3	|pankhu	|3	|Aathmika|
-                    |3	|kyo	|3|	Aathmika|
-                   | 4	|lee	|4|	pankhu|
-                   | 5	|bo young|	5|	bozo|
+        Result :  
+| id | name | id | name|
+| -- | -- | -- | -- |
+|1 |	bozo|	1|	lee|
+|1	|pankhu |	1	|lee|
+|2	|Aathmika	|2	|bo young|
+|2	|Aathmika	|2	|pankhu|
+|3	|pankhu	|3	|Aathmika|
+|3	|kyo	|3|	Aathmika|
+| 4	|lee	|4|	pankhu|
+| 5	|bo young|	5|	bozo|
