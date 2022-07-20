@@ -1,4 +1,4 @@
-Inner JOIN : It will give both the column rows present in the 2 or more tables.
+Inner JOIN : It will give both the common rows present in the 2 or more tables.
              - Inner joins combine records from two tables whenever there are matching values in a field common to both tables
 
 create table A : create table A((id integer , name varchar(20));
